@@ -1,0 +1,10 @@
+/* src/styles/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white;
+  font-family: 'Inter', sans-serif;
+}
+
